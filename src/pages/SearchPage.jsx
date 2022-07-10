@@ -19,11 +19,11 @@ export const SearchPage = () => {
     <Page height="100%" pad="medium">
       {searchText === "" ? (
         <Box>
-          {browseGenres.length > 0 && (
+          {browseGenres?.length > 0 && (
             <Heading weight="bold">Your top genres</Heading>
           )}
           <Box direction="row" wrap={true}>
-            {browseGenres.slice(0, 5)?.map((genre) => {
+            {browseGenres?.slice(0, 5)?.map((genre) => {
               return <GenreCard data={genre} />;
             })}
           </Box>
