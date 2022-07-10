@@ -86,6 +86,25 @@ Following tree Summerizes the Structure of APP
   - so no need to make another slice and crowding the store for single token to use over the app lifecycle
 - Async calls using thunk and just added loading as boolean flag to signal data is fetched or in pending/rejected state
 
+# DEMO
+
+## Home Page with playlists and songs
+
+![sentify-home](https://user-images.githubusercontent.com/61598260/178163746-d88c2608-3277-4d8a-bb96-ab1880fe229b.JPG)
+
+
+## Browse Genre Section
+
+![sentify-browse](https://user-images.githubusercontent.com/61598260/178163738-f9397fa6-b4cd-48f2-bb87-d92a02b91645.JPG)
+
+
+## Search Page
+
+![sentify-search](https://user-images.githubusercontent.com/61598260/178163731-5bf1136e-b4df-4530-b7bd-4b45eefbc68a.JPG)
+
+![syntify-top](https://user-images.githubusercontent.com/61598260/178163581-1228c63e-c292-4fd2-8dbe-090f9bf4e666.JPG)
+
+
 ## Author
 
 - [@t007rushi](https://github.com/t007rushi)
