@@ -7,14 +7,13 @@ export const PlaylistRow = ({ Collection, title, start }) => {
     <Box gap="2rem">
       <Box direction="row" justify="between" pad="small">
         <Text weight="bold" size="2rem">
-          {" "}
-          {title}{" "}
+          {title}
         </Text>
         <Text color="dark-4">See All</Text>
       </Box>
       <Box direction="row" gap="small">
         {Collection?.slice(start, start + 7).map((songdata) => {
-          return <SongCard songdata={songdata} />;
+          return <SongCard songdata={songdata} key={songdata.id} />;
         })}
       </Box>
     </Box>

@@ -24,7 +24,7 @@ export const SearchPage = () => {
           )}
           <Box direction="row" wrap={true}>
             {browseGenres?.slice(0, 5)?.map((genre) => {
-              return <GenreCard data={genre} />;
+              return <GenreCard data={genre} key={genre} />;
             })}
           </Box>
         </Box>
@@ -35,7 +35,7 @@ export const SearchPage = () => {
       ) : (
         <Box direction="row" wrap={true} gap="1rem">
           {searchData?.map((songdata) => {
-            return <SongCard songdata={songdata} />;
+            return <SongCard songdata={songdata} key={songdata.id} />;
           })}
         </Box>
       )}

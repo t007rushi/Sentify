@@ -6,9 +6,30 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
-      <Route path="/home" element={<Home mainContent={<PlayLists />} />} />
-      <Route path="/genre" element={<Home mainContent={<Genre />} />} />
-      <Route path="/search" element={<Home mainContent={<SearchPage />} />} />
+      <Route
+        path="/home"
+        element={
+          <Home>
+            <PlayLists />
+          </Home>
+        }
+      />
+      <Route
+        path="/genre"
+        element={
+          <Home>
+            <Genre />
+          </Home>
+        }
+      />
+      <Route
+        path="/search"
+        element={
+          <Home>
+            <SearchPage />
+          </Home>
+        }
+      />
     </Routes>
   );
 }

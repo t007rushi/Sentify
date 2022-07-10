@@ -1,7 +1,7 @@
 import React from "react";
 import { Page } from "grommet";
 
-export const MainComp = ({ mainContent }) => {
+export const MainComp = ({ children }) => {
   return (
     <Page
       overflow={"scroll"}
@@ -11,7 +11,7 @@ export const MainComp = ({ mainContent }) => {
       gridArea="main"
       pad="small"
     >
-      {mainContent}
+      {children}
     </Page>
   );
 };

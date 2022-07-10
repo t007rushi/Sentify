@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Page } from "grommet";
 import { SidebarComp, HeaderComp, FooterComp, MainComp } from "../layout";
-export const Home = ({ mainContent }) => {
+export const Home = ({ children }) => {
   return (
     <Page>
       <Grid
@@ -15,7 +15,7 @@ export const Home = ({ mainContent }) => {
       >
         <HeaderComp />
         <SidebarComp />
-        <MainComp mainContent={mainContent} />
+        <MainComp>{children}</MainComp>
         <FooterComp />
       </Grid>
     </Page>

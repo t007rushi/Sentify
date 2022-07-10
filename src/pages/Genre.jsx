@@ -7,6 +7,7 @@ import { getbrowseGenres } from "../redux/features/songsSlice";
 export const Genre = () => {
   const dispatch = useDispatch();
   const { browseGenres, isGenreLoading } = useSelector((state) => state.songs);
+
   useEffect(() => {
     dispatch(getbrowseGenres());
   }, [dispatch]);
@@ -20,7 +21,7 @@ export const Genre = () => {
       ) : (
         <Box direction="row" wrap={true}>
           {browseGenres?.map((genre) => {
-            return <GenreCard data={genre} />;
+            return <GenreCard data={genre} key={genre} />;
           })}
         </Box>
       )}
