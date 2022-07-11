@@ -1,6 +1,6 @@
 # [Sentify](https://github.com/t007rushi/Sentify)
 
-This is Spotify Spoof Assignment Build with REACT
+<img src="https://user-images.githubusercontent.com/61598260/178214435-fbebf24a-eb17-4c21-a0c1-73b04d668ef8.png" width="100"> This is Spotify Spoof Assignment Build with REACT
 
 ## Tech Stack
 
