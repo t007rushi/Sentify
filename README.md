@@ -77,7 +77,7 @@ Following tree Summerizes the Structure of APP
 
 ![nodeTree](https://user-images.githubusercontent.com/61598260/178158214-bde2477e-0d8d-43e9-8c80-ae44cf0b6198.jpg)
 
-3. What I did it made the use of Redux as simple as possible?
+3. ## What I did it made the use of Redux as simple as possible?
 
 - Started with spotify Auth, thought of making authSlice but later dropped and stored it in `window.localstorage`
 
